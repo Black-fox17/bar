@@ -1,0 +1,29 @@
+<htmp>
+    <head>
+        <title>Progress bar</title>
+        <style>
+            h1{color : white;
+                font-size: 50px;
+                text-align:center;
+                background-color:black ;
+            }
+            #date{color : #FFC900;
+                padding:40px;
+            }
+            #ko{font-size :40px;
+                color:#20350B;
+            }
+            #test{
+                color:black;
+                font-size:30px;
+            }
+        </style>
+    </head>
+    <body bgcolor: black>
+        <h1>Congratulations for making it to this year</h1>
+        <p id = "test">Hi wow {{g}}% of this year is already gone,meaning {{g2}}% is all that remains hope you are hanging there you are great for coming this far </p>
+        <p id = "ko">This year progress: </label>
+        <progress id = "date" value = {{g}} max = "100">{{g}}</progress>
+        </p>
+    </body>
+</htmp>
